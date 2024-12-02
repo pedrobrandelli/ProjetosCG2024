@@ -1,0 +1,49 @@
+{
+    "objects": [
+        {
+            "modelPath": "../Modelos3D/Avocado/Avocado.obj",
+            "mtlPath": "",
+            "texturePath": "../Modelos3D/Avocado/AvocadoTex.png",
+            "translation": [-3.0, 0.0, 0.0],
+            "rotation": [0.0, 0.0, 0.0],
+            "scale": 0.1,
+            "eMovel": false
+        },
+        {
+            "modelPath": "../Modelos3D/Tatu/Tatu.obj",
+            "mtlPath": "",
+            "texturePath": "../Modelos3D/Tatu/Tatu.png",
+            "translation": [0.0, 0.0, 0.0],
+            "rotation": [0.0, 0.0, 0.0],
+            "scale": 3.0,
+            "eMovel": false
+        },
+        {
+            "modelPath": "../Modelos3D/aratwearingabackpack/obj/model.obj",
+            "mtlPath": "",
+            "texturePath": "../Modelos3D/aratwearingabackpack/textures/texture_1.jpeg",
+            "translation": [3.0, 0.0, 0.0],
+            "rotation": [0.0, 180.0, 0.0],
+            "scale": 2.0,
+            "eMovel": false
+        },
+        {
+            "modelPath": "../Modelos3D/Julien/Julien.obj",
+            "mtlPath": "",
+            "texturePath": "../Modelos3D/Julien/Julien.png",
+            "translation": [0.0, 0.0, 0.0],
+            "rotation": [0.0, 0.0, 0.0],
+            "scale": 0.1,
+            "eMovel": true
+        }
+    ],
+    "camera": [
+        {
+            "cameraPos":    [0, 0, 15],
+            "cameraFront":  [0, 0, -1],
+            "cameraUp":     [0, 1, 0],
+            "lightPos":     [0, 0, 22],
+            "lightColor":   [1, 1, 1]
+        }
+    ]
+}

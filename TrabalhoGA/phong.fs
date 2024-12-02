@@ -15,6 +15,8 @@ uniform vec3 lightPos, lightColor;
 uniform vec3 cameraPos;
 
 out vec4 color;
+//Buffer da textura
+uniform sampler2D texBuffer;
 
 void main()
 {
@@ -38,8 +40,8 @@ void main()
     spec = pow(spec,q);
     specular = ks * spec * lightColor;
 
-
-    vec3 result = (ambient + diffuse) * finalColor + specular;
+    vec4 texColor = texture(texBuffer,texCoord);
+    vec3 result = (ambient + diffuse) * vec3(texColor) + specular;
 
     color = vec4(result,1.0);
 }

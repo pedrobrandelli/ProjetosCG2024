@@ -19,7 +19,7 @@ void main()
 	//...pode ter mais linhas de código aqui!
 	gl_Position = projection * view * model * vec4(position, 1.0);
 	finalColor = color;
-    texCoord = texc;
+    texCoord = vec2(texc.s, 1 - texc.t);
     fragPos = vec3(model * vec4(position, 1.0));
     scaledNormal = vec3(model * vec4(normal, 1.0));
 }
